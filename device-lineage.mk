@@ -1,3 +1,6 @@
+BOARD_HAS_THERMAPLAN := true
+$(call inherit-product, device/thermaplan-btm/device.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     libion \
