@@ -7,6 +7,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
+$(call inherit-product, device/thermaplan-btm/device.mk)
+$(call inherit-product, device/google/marlin/thermaplan.mk)
 
 -include device/google/marlin/marlin/device-lineage.mk
 
